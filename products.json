@@ -1,0 +1,2319 @@
+{
+ "business": "Manohar Enterprises",
+ "source": "Product_list_2k26.xlsx — sheet '2026 Price'",
+ "note": "*NOTE - there can be misprint in the above Price List.",
+ "count": 231,
+ "products": [
+  {
+   "sr": 1,
+   "category": "ROLL & SERPENT",
+   "product": "Roll Caps",
+   "brand": "SUPREME",
+   "pack": "10 (100pc)",
+   "function": "Gun Roll",
+   "rate": 60,
+   "section": ""
+  },
+  {
+   "sr": 2,
+   "category": "ROLL & SERPENT",
+   "product": "Roll Caps",
+   "brand": "COCK",
+   "pack": "10 (100pc)",
+   "function": "Gun Roll",
+   "rate": 100,
+   "section": ""
+  },
+  {
+   "sr": 3,
+   "category": "ROLL & SERPENT",
+   "product": "Ring Cap",
+   "brand": "Ayyan",
+   "pack": "1 Pack",
+   "function": "Gun Ring",
+   "rate": null,
+   "section": ""
+  },
+  {
+   "sr": 4,
+   "category": "ROLL & SERPENT",
+   "product": "Ring Cap",
+   "brand": "SONY",
+   "pack": "1 Pack",
+   "function": "Gun Ring",
+   "rate": null,
+   "section": ""
+  },
+  {
+   "sr": 5,
+   "category": "ROLL & SERPENT",
+   "product": "BIG CELLO",
+   "brand": "PANDIYAN",
+   "pack": "1 Pack",
+   "function": "Serpent",
+   "rate": 30,
+   "section": ""
+  },
+  {
+   "sr": 6,
+   "category": "ROLL & SERPENT",
+   "product": "SARPENT BOX",
+   "brand": "SONY",
+   "pack": "1 Pack",
+   "function": "Serpent",
+   "rate": 35,
+   "section": ""
+  },
+  {
+   "sr": 7,
+   "category": "SPARKLES",
+   "product": "7 CM PLAIN",
+   "brand": "SIMBA",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 7,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 8,
+   "category": "SPARKLES",
+   "product": "10 CM PLAIN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 15,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 9,
+   "category": "SPARKLES",
+   "product": "10 CM GREEN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 20,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 10,
+   "category": "SPARKLES",
+   "product": "10 CM RED",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 20,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 11,
+   "category": "SPARKLES",
+   "product": "15 CM PLAIN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 30,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 12,
+   "category": "SPARKLES",
+   "product": "15 CM GREEN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 40,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 13,
+   "category": "SPARKLES",
+   "product": "15 CM RED",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 40,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 14,
+   "category": "SPARKLES",
+   "product": "30 CM PLAIN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 30,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 15,
+   "category": "SPARKLES",
+   "product": "30 CM GREEN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 40,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 16,
+   "category": "SPARKLES",
+   "product": "30 CM RED",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 40,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 17,
+   "category": "SPARKLES",
+   "product": "50 CM PLAIN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 150,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 18,
+   "category": "SPARKLES",
+   "product": "100 CM PLAIN",
+   "brand": "CLASSIC",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 300,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 19,
+   "category": "SPARKLES",
+   "product": "10 CM PLAIN",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 20,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 20,
+   "category": "SPARKLES",
+   "product": "10 CM GREEN",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 20,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 21,
+   "category": "SPARKLES",
+   "product": "10 CM RED",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 20,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 22,
+   "category": "SPARKLES",
+   "product": "15 CM PLAIN",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 50,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 23,
+   "category": "SPARKLES",
+   "product": "15 CM GREEN",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 50,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 24,
+   "category": "SPARKLES",
+   "product": "15 CM RED",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 50,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 25,
+   "category": "SPARKLES",
+   "product": "30 CM PLAIN",
+   "brand": "CORO",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 50,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 26,
+   "category": "SPARKLES",
+   "product": "30 CM GREEN",
+   "brand": "CORO",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 50,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 27,
+   "category": "SPARKLES",
+   "product": "30 CM RED",
+   "brand": "CORO",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 50,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 28,
+   "category": "SPARKLES",
+   "product": "50 CM PLAIN",
+   "brand": "CORO",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": 110,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 29,
+   "category": "SPARKLES",
+   "product": "100 CM PLAIN",
+   "brand": "CORO",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Sparkle",
+   "rate": null,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": 30,
+   "category": "Flower Pots",
+   "product": "FP SMALL",
+   "brand": "MALTI",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 50,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 31,
+   "category": "Flower Pots",
+   "product": "FP BIG",
+   "brand": "WIN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 60,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 32,
+   "category": "Flower Pots",
+   "product": "FP BIG",
+   "brand": "KUMARAN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 60,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 33,
+   "category": "Flower Pots",
+   "product": "FP BIG",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 140,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 34,
+   "category": "Flower Pots",
+   "product": "FP SPL",
+   "brand": "KUMARAN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 75,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 35,
+   "category": "Flower Pots",
+   "product": "FP SPL",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 120,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 36,
+   "category": "Flower Pots",
+   "product": "FP SPL",
+   "brand": "STANDARD",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 140,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 37,
+   "category": "Flower Pots",
+   "product": "FP SPL",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 240,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 38,
+   "category": "Flower Pots",
+   "product": "FP ASHOKA",
+   "brand": "WIN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 150,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 39,
+   "category": "Flower Pots",
+   "product": "FP ASHOKA",
+   "brand": "KUMARAN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": null,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 40,
+   "category": "Flower Pots",
+   "product": "FP ASHOKA",
+   "brand": "FATHER",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 110,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 41,
+   "category": "Flower Pots",
+   "product": "FP ASHOKA",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 155,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 42,
+   "category": "Flower Pots",
+   "product": "FP DLX",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": 320,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 43,
+   "category": "Flower Pots",
+   "product": "FP DLX (5PIC)",
+   "brand": "STANDARD",
+   "pack": "1 Pack (5 pc)",
+   "function": "Glittering Fountain",
+   "rate": 200,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 44,
+   "category": "Flower Pots",
+   "product": "FP COLOUR KOTHI",
+   "brand": "KUMARAN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering Fountain",
+   "rate": null,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 45,
+   "category": "Flower Pots",
+   "product": "FP COLOR KOTHI",
+   "brand": "FATHER",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 180,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 46,
+   "category": "Flower Pots",
+   "product": "FP Color KOTI GIANT",
+   "brand": "BIG IN",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 230,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 47,
+   "category": "Flower Pots",
+   "product": "FP Color KOTI",
+   "brand": "LEO",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 220,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 48,
+   "category": "Flower Pots",
+   "product": "FP Color GIANT",
+   "brand": "STANDARD",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 300,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 49,
+   "category": "Flower Pots",
+   "product": "FP Color KOTI",
+   "brand": "ANIL",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 350,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 50,
+   "category": "Flower Pots",
+   "product": "GREEN BERRY",
+   "brand": "SONY",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 550,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 51,
+   "category": "Flower Pots",
+   "product": "PENTA COLOR FOUNTAIN",
+   "brand": "COCK",
+   "pack": "1 Pack (5 pc)",
+   "function": "Color fading Fountain",
+   "rate": 410,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 52,
+   "category": "Flower Pots",
+   "product": "TIM TIM",
+   "brand": "CHUNMUN",
+   "pack": "1 Pack (5 pc)",
+   "function": "Glittering Star Fountain",
+   "rate": 150,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 53,
+   "category": "Flower Pots",
+   "product": "2 IN 1",
+   "brand": "CHUNMUN",
+   "pack": "1 Pack (10pc)",
+   "function": "Glittering CLR Fountain",
+   "rate": 290,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 54,
+   "category": "Flower Pots",
+   "product": "GOLDEN",
+   "brand": "CHUNMUN",
+   "pack": "1 Pack (5 pc)",
+   "function": "Glittering Star Fountain",
+   "rate": 240,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 55,
+   "category": "Flower Pots",
+   "product": "ASHRAFI",
+   "brand": "CHUNMUN",
+   "pack": "1 Pack (5 pc)",
+   "function": "Glittering Star Fountain",
+   "rate": 265,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 56,
+   "category": "Flower Pots",
+   "product": "WELCOME ANGEL",
+   "brand": "RK",
+   "pack": "1 Pc",
+   "function": "Glittering Star Fountain",
+   "rate": 110,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": 57,
+   "category": "Ground Chakkar",
+   "product": "GC BIG",
+   "brand": "SUPREME",
+   "pack": "1 Pack (10 pc)",
+   "function": "Electric Spinner",
+   "rate": 50,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 58,
+   "category": "Ground Chakkar",
+   "product": "GC (25 CM)",
+   "brand": "COCK",
+   "pack": "1 Pack (25 pc)",
+   "function": "Electric Spinner",
+   "rate": 140,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 59,
+   "category": "Ground Chakkar",
+   "product": "GC SPL",
+   "brand": "WIN",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 60,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 60,
+   "category": "Ground Chakkar",
+   "product": "GC SPL",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 80,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 61,
+   "category": "Ground Chakkar",
+   "product": "GC SPL",
+   "brand": "CORO",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 140,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 62,
+   "category": "Ground Chakkar",
+   "product": "GC SPL (PLASTIC) 45CM",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 140,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 63,
+   "category": "Ground Chakkar",
+   "product": "GC SPL",
+   "brand": "MERCURY",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": null,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 64,
+   "category": "Ground Chakkar",
+   "product": "GC SPL",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 140,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 65,
+   "category": "Ground Chakkar",
+   "product": "GC DLX",
+   "brand": "MERCURY",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": null,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 66,
+   "category": "Ground Chakkar",
+   "product": "GC DLX",
+   "brand": "ANIL",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 150,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 67,
+   "category": "Ground Chakkar",
+   "product": "GC DLX (70 CM)",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Spinner",
+   "rate": 240,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 68,
+   "category": "Ground Chakkar",
+   "product": "WHISTLING WHEELS",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (5 pc)",
+   "function": "Whi. Spinner",
+   "rate": 130,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 69,
+   "category": "Ground Chakkar",
+   "product": "WHISTLING WHEELS",
+   "brand": "COCK",
+   "pack": "1 Pack (5 pc)",
+   "function": "Electric Spinner",
+   "rate": 150,
+   "section": "GROUND CHAKKAR/SPINNERS"
+  },
+  {
+   "sr": 70,
+   "category": "Festival Chorsa Garlands",
+   "product": "28 WALA CHORSA",
+   "brand": "RAJAMANI",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 15,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 71,
+   "category": "Festival Chorsa Garlands",
+   "product": "28 WALA GAINT",
+   "brand": "SINGHAM",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 25,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 72,
+   "category": "Festival Chorsa Garlands",
+   "product": "24 PATLA",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 50,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 73,
+   "category": "Festival Chorsa Garlands",
+   "product": "32 PATLA",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 75,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 74,
+   "category": "Festival Chorsa Garlands",
+   "product": "50 PATLA",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 110,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 75,
+   "category": "Festival Chorsa Garlands",
+   "product": "24 WALA DLX",
+   "brand": "GEME'S",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 50,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 76,
+   "category": "Festival Chorsa Garlands",
+   "product": "32 WALA DLX",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 105,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 77,
+   "category": "Festival Chorsa Garlands",
+   "product": "36 WALA DLX",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 170,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 78,
+   "category": "Festival Chorsa Garlands",
+   "product": "24 DLX 4''",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 80,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 79,
+   "category": "Festival Chorsa Garlands",
+   "product": "50 DLX 4''",
+   "brand": "TMT",
+   "pack": "1 Pack",
+   "function": "Garland",
+   "rate": 170,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 80,
+   "category": "Festival Chorsa Garlands",
+   "product": "100 ST BIJILI (झेब्रा फटाके)",
+   "brand": "MATHU",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 20,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 81,
+   "category": "Festival Chorsa Garlands",
+   "product": "50 RED BIJILI",
+   "brand": "STANDARD",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 30,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 82,
+   "category": "Festival Chorsa Garlands",
+   "product": "50 ST BIJILI",
+   "brand": "STANDARD",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 40,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 83,
+   "category": "Festival Chorsa Garlands",
+   "product": "51 ST BIJILI",
+   "brand": "SUNSHINE",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 40,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 84,
+   "category": "Festival Chorsa Garlands",
+   "product": "50 ST BIJILI GOLD",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 40,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 85,
+   "category": "Festival Chorsa Garlands",
+   "product": "100 ST BIJILI RED",
+   "brand": "STANDARD",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 50,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 86,
+   "category": "Festival Chorsa Garlands",
+   "product": "100 ST BIJILI GOLD",
+   "brand": "STD",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 70,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 87,
+   "category": "Festival Chorsa Garlands",
+   "product": "100 ST BIJILI GOLD",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "झेब्रा फटाके",
+   "rate": 80,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 88,
+   "category": "Festival Chorsa Garlands",
+   "product": "RANGILA MIST",
+   "brand": "STANDARD",
+   "pack": "1 Pack",
+   "function": "कलर फटाके",
+   "rate": 60,
+   "section": "CHORSA GARLANDS"
+  },
+  {
+   "sr": 89,
+   "category": "Deluxe Crackers",
+   "product": "2\" DHAMAKA",
+   "brand": "KURVI",
+   "pack": "1 Pack (5pc)",
+   "function": "Crackers",
+   "rate": 5,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 90,
+   "category": "Deluxe Crackers",
+   "product": "2 1/5\" DHAMAKA",
+   "brand": "",
+   "pack": "1 Pack (5pc)",
+   "function": "Crackers",
+   "rate": 7,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 91,
+   "category": "Deluxe Crackers",
+   "product": "3 1/2''",
+   "brand": "WIN",
+   "pack": "1 Pack (5 pc)",
+   "function": "Crackers",
+   "rate": 15,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 92,
+   "category": "Deluxe Crackers",
+   "product": "3 1/2 DHAMAKA",
+   "brand": "COCK",
+   "pack": "1 Pack (5 pc)",
+   "function": "Crackers",
+   "rate": 30,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 93,
+   "category": "Deluxe Crackers",
+   "product": "4'' DHAMAKA",
+   "brand": "WIN",
+   "pack": "1 Pack (5 pc)",
+   "function": "Crackers",
+   "rate": 20,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 94,
+   "category": "Deluxe Crackers",
+   "product": "4'' DHAMAKA ( Motta Cracker )",
+   "brand": "COCK",
+   "pack": "1 Pack (5 pc)",
+   "function": "Crackers",
+   "rate": 40,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 95,
+   "category": "Deluxe Crackers",
+   "product": "6'' DHAMAKA",
+   "brand": "COCK",
+   "pack": "1 Pack (5 pc)",
+   "function": "Crackers",
+   "rate": 60,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 96,
+   "category": "Crackers",
+   "product": "2 SOUND",
+   "brand": "WIN",
+   "pack": "1 Pack (5 pc)",
+   "function": "2 Sound Crackers",
+   "rate": 40,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 97,
+   "category": "Crackers",
+   "product": "3 SOUND",
+   "brand": "WIN",
+   "pack": "1 Pack (5 pc)",
+   "function": "3 Sound Crackers",
+   "rate": 50,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": 98,
+   "category": "BOMBS AND BULLET",
+   "product": "BULLET BOMB",
+   "brand": "RR",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 20,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 99,
+   "category": "BOMBS AND BULLET",
+   "product": "BULLET BOMB",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 30,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 100,
+   "category": "BOMBS AND BULLET",
+   "product": "MINI BULLET",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 40,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 101,
+   "category": "BOMBS AND BULLET",
+   "product": "BULLET BOMB",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 55,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 102,
+   "category": "BOMBS AND BULLET",
+   "product": "MIRCHI BOMB",
+   "brand": "BHAGWATI",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 110,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 103,
+   "category": "BOMBS AND BULLET",
+   "product": "SADDAM BOMB W/P",
+   "brand": "TELKHEDA",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 50,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 104,
+   "category": "BOMBS AND BULLET",
+   "product": "SADDAM BOMB W/P",
+   "brand": "SAHARA",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 60,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 105,
+   "category": "BOMBS AND BULLET",
+   "product": "SADDAM BOMB W/P",
+   "brand": "ABBAS",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 70,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 106,
+   "category": "BOMBS AND BULLET",
+   "product": "SHER SHIKAR BOMB",
+   "brand": "XXL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 120,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 107,
+   "category": "BOMBS AND BULLET",
+   "product": "AANDHI TOOFAN",
+   "brand": "XXL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 180,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 108,
+   "category": "BOMBS AND BULLET",
+   "product": "LADEN BOMB",
+   "brand": "XXL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 220,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 109,
+   "category": "BOMBS AND BULLET",
+   "product": "AATANK BOMB",
+   "brand": "XXL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackers",
+   "rate": 250,
+   "section": "BOMBS & BULLET BOMB"
+  },
+  {
+   "sr": 110,
+   "category": "MINI FANCY",
+   "product": "KIT KAT",
+   "brand": "RR",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackling Fountain",
+   "rate": 30,
+   "section": "MINI FANCY"
+  },
+  {
+   "sr": 111,
+   "category": "MINI FANCY",
+   "product": "CHUT PUT",
+   "brand": "RAJAVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackling Fountain",
+   "rate": 40,
+   "section": "MINI FANCY"
+  },
+  {
+   "sr": 112,
+   "category": "MINI FANCY",
+   "product": "CHAT CHAT",
+   "brand": "STANDARD",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackling Fountain",
+   "rate": 60,
+   "section": "MINI FANCY"
+  },
+  {
+   "sr": 113,
+   "category": "MINI FANCY",
+   "product": "CHUT PUT",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackling Fountain",
+   "rate": 70,
+   "section": "MINI FANCY"
+  },
+  {
+   "sr": 114,
+   "category": "MINI FANCY",
+   "product": "CHUT PUT",
+   "brand": "SUNSHINE",
+   "pack": "1 Pack (10pc)",
+   "function": "Crackling Fountain",
+   "rate": 70,
+   "section": "MINI FANCY"
+  },
+  {
+   "sr": 115,
+   "category": "FANCY NOVELTIES",
+   "product": "MUSIC MALA",
+   "brand": "ANIL",
+   "pack": "1 Pack (1 Garland)",
+   "function": "Musical Garland",
+   "rate": 90,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 116,
+   "category": "FANCY NOVELTIES",
+   "product": "CLR CNG BUTTERFLY (CCB)",
+   "brand": "",
+   "pack": "1 Pack (10pc)",
+   "function": "Color Changing butterfly",
+   "rate": 50,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 117,
+   "category": "FANCY NOVELTIES",
+   "product": "CLR CNG BUTTERFLY (CCB)",
+   "brand": "MERCURY",
+   "pack": "1 Pack (10pc)",
+   "function": "Color Changing butterfly",
+   "rate": 110,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 118,
+   "category": "FANCY NOVELTIES",
+   "product": "CLR CNG BUTTERFLY (CCB)",
+   "brand": "VANITHA",
+   "pack": "1 Pack (10pc)",
+   "function": "Color Changing butterfly",
+   "rate": 125,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 119,
+   "category": "FANCY NOVELTIES",
+   "product": "CLR CNG BUTTERFLY (CCB)",
+   "brand": "STANDARD",
+   "pack": "1 Pack (10pc)",
+   "function": "Color Changing butterfly",
+   "rate": 160,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 120,
+   "category": "FANCY NOVELTIES",
+   "product": "SIGNAL ROCKET (7 SHOTS GREEN)",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "Blows 7 Green balls",
+   "rate": 120,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 121,
+   "category": "FANCY NOVELTIES",
+   "product": "AUTOMATIC ROCKET (7 SHOTS RED)",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "Blows 7 Red balls",
+   "rate": 120,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 122,
+   "category": "FANCY NOVELTIES",
+   "product": "SKY SHOT",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "Ariel Shot",
+   "rate": 110,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 123,
+   "category": "FANCY NOVELTIES",
+   "product": "RING RING",
+   "brand": "VADIVEL",
+   "pack": "1 Pack",
+   "function": "Spinner",
+   "rate": 150,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 124,
+   "category": "FANCY NOVELTIES",
+   "product": "JUMPING COLOR FROG",
+   "brand": "STD",
+   "pack": "1 Pack",
+   "function": "Jumps on the place",
+   "rate": 45,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 125,
+   "category": "FANCY NOVELTIES",
+   "product": "DISCO FLASH",
+   "brand": "STD",
+   "pack": "1 Pack",
+   "function": "Flashing crackers",
+   "rate": 70,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 126,
+   "category": "FANCY NOVELTIES",
+   "product": "CHIP MIX",
+   "brand": "OTHER",
+   "pack": "1 Pack",
+   "function": "",
+   "rate": 90,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 127,
+   "category": "FANCY NOVELTIES",
+   "product": "PEACOCK",
+   "brand": "RK",
+   "pack": "1 Pack",
+   "function": "5 in 1 Glittering Fountain",
+   "rate": 220,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 128,
+   "category": "FANCY NOVELTIES",
+   "product": "WONDER POP",
+   "brand": "VADIVEL",
+   "pack": "1 Pack",
+   "function": "Fancy Fountain",
+   "rate": null,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 129,
+   "category": "FANCY NOVELTIES",
+   "product": "RANGILA MIST",
+   "brand": "STANDARD",
+   "pack": "1 Pack",
+   "function": "Color Smoke",
+   "rate": 60,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 130,
+   "category": "FANCY NOVELTIES",
+   "product": "BAD BOY'S",
+   "brand": "VADIVEL",
+   "pack": "1 Pack",
+   "function": "Fancy Fountain",
+   "rate": 320,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 131,
+   "category": "FANCY NOVELTIES",
+   "product": "CRACKLING FOUNTAIN",
+   "brand": "RR",
+   "pack": "1 Pack",
+   "function": "Crackling Fountain",
+   "rate": 380,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 132,
+   "category": "FANCY NOVELTIES",
+   "product": "POP POP",
+   "brand": "MICKY M",
+   "pack": "1 Pack",
+   "function": "Throw & Boom",
+   "rate": 400,
+   "rateUnit": "Box",
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 133,
+   "category": "FANCY NOVELTIES",
+   "product": "POP POP",
+   "brand": "OG",
+   "pack": "1 Pack",
+   "function": "Throw & Boom",
+   "rate": 15,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 134,
+   "category": "FANCY NOVELTIES",
+   "product": "WONDER THROW",
+   "brand": "MM",
+   "pack": "1 Pack",
+   "function": "",
+   "rate": 80,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 135,
+   "category": "FANCY NOVELTIES",
+   "product": "MACHIS BOMB",
+   "brand": "DONALD",
+   "pack": "1 Pack",
+   "function": "Throw & Boom",
+   "rate": 130,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 136,
+   "category": "FANCY NOVELTIES",
+   "product": "CHOCOLATE BOMB",
+   "brand": "MM",
+   "pack": "1 Pack",
+   "function": "Throw & Boom",
+   "rate": 60,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 137,
+   "category": "FANCY NOVELTIES",
+   "product": "SKY LATTERN",
+   "brand": "MM",
+   "pack": "1 Pack",
+   "function": "Sky lamp",
+   "rate": 25,
+   "section": "FANCY NOVELTIES"
+  },
+  {
+   "sr": 138,
+   "category": "MINI ARIEL NOVELTIES",
+   "product": "COLOR PLUS",
+   "brand": "ANIL",
+   "pack": "1 Pack",
+   "function": "Ariel Shots",
+   "rate": 140,
+   "section": "MINI ARIEL NOVELTIES"
+  },
+  {
+   "sr": 139,
+   "category": "MINI ARIEL NOVELTIES",
+   "product": "HELICOPTER",
+   "brand": "ANIL",
+   "pack": "1 Pack",
+   "function": "Ariel fancy",
+   "rate": 90,
+   "section": "MINI ARIEL NOVELTIES"
+  },
+  {
+   "sr": 140,
+   "category": "MINI ARIEL NOVELTIES",
+   "product": "HELICOPTER",
+   "brand": "AYYAN",
+   "pack": "1 Pack",
+   "function": "Ariel fancy",
+   "rate": 110,
+   "section": "MINI ARIEL NOVELTIES"
+  },
+  {
+   "sr": 141,
+   "category": "MINI ARIEL NOVELTIES",
+   "product": "HELICOPTER",
+   "brand": "RK",
+   "pack": "1 Pack",
+   "function": "Ariel fancy",
+   "rate": 165,
+   "section": "MINI ARIEL NOVELTIES"
+  },
+  {
+   "sr": 142,
+   "category": "MINI ARIEL NOVELTIES",
+   "product": "PENTA SKY",
+   "brand": "COCK",
+   "pack": "1 Pack (5 pc)",
+   "function": "Ariel Shots",
+   "rate": 190,
+   "section": "MINI ARIEL NOVELTIES"
+  },
+  {
+   "sr": 143,
+   "category": "MINI ARIEL NOVELTIES",
+   "product": "AIR GEL",
+   "brand": "MERCURY",
+   "pack": "1 Pack (10pc)",
+   "function": "Ariel Shots",
+   "rate": 250,
+   "section": "MINI ARIEL NOVELTIES"
+  },
+  {
+   "sr": 144,
+   "category": "CANDLE AND TORCH",
+   "product": "MAGIC PENCIL",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 100,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 145,
+   "category": "CANDLE AND TORCH",
+   "product": "12'' PENCIL",
+   "brand": "VADIVEL",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 70,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 146,
+   "category": "CANDLE AND TORCH",
+   "product": "MULTI Color PENCIL",
+   "brand": "STANDARD",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 80,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 147,
+   "category": "CANDLE AND TORCH",
+   "product": "SILVER RAIN TORCH",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 110,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 148,
+   "category": "CANDLE AND TORCH",
+   "product": "OLYMPIC TORCH",
+   "brand": "COCK",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 170,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 149,
+   "category": "CANDLE AND TORCH",
+   "product": "18'' TS",
+   "brand": "KUMARAN",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 50,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 150,
+   "category": "CANDLE AND TORCH",
+   "product": "48'' TS",
+   "brand": "KUMARAN",
+   "pack": "1 Pack",
+   "function": "Torch",
+   "rate": 70,
+   "section": "CANDLE AND TORCH"
+  },
+  {
+   "sr": 151,
+   "category": "ROCKETS",
+   "product": "BABY ROCKET",
+   "brand": "",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 50,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 152,
+   "category": "ROCKETS",
+   "product": "ROCKET BOMB",
+   "brand": "",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": null,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 153,
+   "category": "ROCKETS",
+   "product": "ROCKET BOMB",
+   "brand": "WIN",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 60,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 154,
+   "category": "ROCKETS",
+   "product": "ROCKET BOMB",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 80,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 155,
+   "category": "ROCKETS",
+   "product": "ROCKET BOMB",
+   "brand": "STANDARD",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 110,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 156,
+   "category": "ROCKETS",
+   "product": "ROCKET BOMB",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 140,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 157,
+   "category": "ROCKETS",
+   "product": "LUNIK ROCKET",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 145,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 158,
+   "category": "ROCKETS",
+   "product": "2 SOUND ROCKET",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 145,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 159,
+   "category": "ROCKETS",
+   "product": "SHANE PUNJAB ROCKET",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 105,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 160,
+   "category": "ROCKETS",
+   "product": "SKY WHISTLE ROCKET MINI",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 150,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 161,
+   "category": "ROCKETS",
+   "product": "SKY WHISTLE ROCKET",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 200,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 162,
+   "category": "ROCKETS",
+   "product": "WHISTLING ROCKET",
+   "brand": "ANIL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 210,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 163,
+   "category": "ROCKETS",
+   "product": "WHISTLING ROCKET",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 230,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 164,
+   "category": "ROCKETS",
+   "product": "WHISTLING ROCKET",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 250,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 165,
+   "category": "ROCKETS",
+   "product": "MEGA FANCY ROCKET",
+   "brand": "VADIVEL",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 350,
+   "section": "ROCKETS"
+  },
+  {
+   "sr": 167,
+   "category": "FANCY",
+   "product": "1 2/4'' SINGLE PIC",
+   "brand": "STANDARD",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 60,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 168,
+   "category": "FANCY",
+   "product": "2'' SINGLE PIC",
+   "brand": "TELKHEDA",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 50,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 169,
+   "category": "FANCY",
+   "product": "2'' SINGLE PIC",
+   "brand": "ABBAS",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 60,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 170,
+   "category": "FANCY",
+   "product": "2'' SINGLE PIC",
+   "brand": "BWF",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 60,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 171,
+   "category": "FANCY",
+   "product": "2'' 3 PIC",
+   "brand": "BWF",
+   "pack": "1 (3pc)",
+   "function": "Sky Shots fancy",
+   "rate": 250,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 172,
+   "category": "FANCY",
+   "product": "2'' 3 PIC",
+   "brand": "NSV",
+   "pack": "1 (3pc)",
+   "function": "Sky Shots fancy",
+   "rate": 300,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 173,
+   "category": "FANCY",
+   "product": "3 1/2'' SINGLE PIC",
+   "brand": "NSV",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 290,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 174,
+   "category": "FANCY",
+   "product": "3'' 1/2 SINGLE PIC UV",
+   "brand": "RR",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 315,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 175,
+   "category": "FANCY",
+   "product": "3'' 1/2 SINGLE PIC",
+   "brand": "IN",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 425,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 176,
+   "category": "FANCY",
+   "product": "3'' PIPE",
+   "brand": "NSV",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 300,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 177,
+   "category": "FANCY",
+   "product": "EURO SERIES",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Boom with R&G Star",
+   "rate": 400,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 178,
+   "category": "FANCY",
+   "product": "BUDGET AERIAL MIX",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Sky Shots fancy",
+   "rate": 460,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 179,
+   "category": "FANCY",
+   "product": "4'' 2 PIC FANCY",
+   "brand": "NSV",
+   "pack": "1 (2pc)",
+   "function": "Boom with Glittering Star",
+   "rate": 820,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 180,
+   "category": "FANCY",
+   "product": "HUGGY MUGGY",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "2 in 1 Red & Blue Star",
+   "rate": 810,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 181,
+   "category": "FANCY",
+   "product": "4\" GOLDEN OCTPUSY",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Boom with Golden Tail",
+   "rate": 970,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 182,
+   "category": "FANCY",
+   "product": "PINK OCTPUCY (2PIC)",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Sky Shots fancy",
+   "rate": 900,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 183,
+   "category": "FANCY",
+   "product": "4'' HOT GIRL",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Boom with Gold Rust / Crackers",
+   "rate": 970,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 184,
+   "category": "FANCY",
+   "product": "4\" BIG DOUS (2PIC)",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Sky Shots fancy",
+   "rate": 1150,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 185,
+   "category": "FANCY",
+   "product": "4'' 3 PIC",
+   "brand": "NSV",
+   "pack": "1 (3pc)",
+   "function": "Sky Shots fancy",
+   "rate": 1350,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 186,
+   "category": "FANCY",
+   "product": "4'' 7 IN 1",
+   "brand": "SONY",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 1150,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 187,
+   "category": "FANCY",
+   "product": "5'' PIPE",
+   "brand": "CORO",
+   "pack": "1",
+   "function": "Sky Shots fancy",
+   "rate": 850,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 188,
+   "category": "FANCY",
+   "product": "BRUCE LEE (2 PIC)",
+   "brand": "SONY",
+   "pack": "1 (2pc)",
+   "function": "Sky Shots fancy",
+   "rate": 1150,
+   "section": "SKY SHOTS FANCY"
+  },
+  {
+   "sr": 189,
+   "category": "MEGA SKYY SHOTS",
+   "product": "12 SHOT RING DARBAR",
+   "brand": "ANIL",
+   "pack": "1",
+   "function": "12 Crackling Star balls",
+   "rate": 165,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 190,
+   "category": "MEGA SKYY SHOTS",
+   "product": "12 SHOTS",
+   "brand": "RR",
+   "pack": "1",
+   "function": "12 Crackling Star balls",
+   "rate": null,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 191,
+   "category": "MEGA SKYY SHOTS",
+   "product": "12 SHOTS",
+   "brand": "BWF",
+   "pack": "1",
+   "function": "12 Silver Laser Crackling",
+   "rate": 180,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 192,
+   "category": "MEGA SKYY SHOTS",
+   "product": "12 SHOTS",
+   "brand": "STD",
+   "pack": "1",
+   "function": "12 Golden Glitter",
+   "rate": 185,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 193,
+   "category": "MEGA SKYY SHOTS",
+   "product": "12 SHOT MEGA",
+   "brand": "SONY",
+   "pack": "1",
+   "function": "12 SKY Star balls",
+   "rate": 190,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 194,
+   "category": "MEGA SKYY SHOTS",
+   "product": "12 SHOTS RANG CHAKKAR",
+   "brand": "ANIL",
+   "pack": "1",
+   "function": "Multi-colored Ring & Ariel Burst",
+   "rate": 220,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 195,
+   "category": "MEGA SKYY SHOTS",
+   "product": "15 SHOTS",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "15 Color with Boom",
+   "rate": 290,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 196,
+   "category": "MEGA SKYY SHOTS",
+   "product": "15 SHOTS",
+   "brand": "NSV",
+   "pack": "1",
+   "function": "15 Color with Boom",
+   "rate": 330,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 197,
+   "category": "MEGA SKYY SHOTS",
+   "product": "15 SHOTS",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "15 Color with Boom",
+   "rate": 330,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 198,
+   "category": "MEGA SKYY SHOTS",
+   "product": "25 SHOTS",
+   "brand": "BWF",
+   "pack": "1",
+   "function": "25 Star Crackers",
+   "rate": 330,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 199,
+   "category": "MEGA SKYY SHOTS",
+   "product": "25 SHOTS",
+   "brand": "ANIL",
+   "pack": "1",
+   "function": "25 Red & Green With Crackling",
+   "rate": 400,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 200,
+   "category": "MEGA SKYY SHOTS",
+   "product": "25 SHOTS",
+   "brand": "VADIVEL",
+   "pack": "1",
+   "function": "25 Multi Shot R, G & W Crackling",
+   "rate": 560,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 201,
+   "category": "MEGA SKYY SHOTS",
+   "product": "25 SHOTS",
+   "brand": "STD",
+   "pack": "1",
+   "function": "25 Multi Shot R, G & W Crackling",
+   "rate": 700,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 202,
+   "category": "MEGA SKYY SHOTS",
+   "product": "25 SHOTS (LARGE)",
+   "brand": "NSV",
+   "pack": "1",
+   "function": "25 Times Multi Color LARGE",
+   "rate": 4100,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 203,
+   "category": "MEGA SKYY SHOTS",
+   "product": "30 SHOTS UV",
+   "brand": "BWF",
+   "pack": "1",
+   "function": "30 Times Multi Color",
+   "rate": 460,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 204,
+   "category": "MEGA SKYY SHOTS",
+   "product": "30 SHOTS",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "30 Times Multi Color",
+   "rate": 510,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 205,
+   "category": "MEGA SKYY SHOTS",
+   "product": "30 SHOT",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "30 Times Multi Color",
+   "rate": 650,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 206,
+   "category": "MEGA SKYY SHOTS",
+   "product": "50 SHOT",
+   "brand": "ANIL",
+   "pack": "1",
+   "function": "50 Multi Color Aerial Shot",
+   "rate": 800,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 207,
+   "category": "MEGA SKYY SHOTS",
+   "product": "60 SHOT UV",
+   "brand": "BWF",
+   "pack": "1",
+   "function": "60 Multi Color Aerial Shot",
+   "rate": 1010,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 208,
+   "category": "MEGA SKYY SHOTS",
+   "product": "60 SHOT",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "60 Multi Color Aerial Shot",
+   "rate": 950,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 209,
+   "category": "MEGA SKYY SHOTS",
+   "product": "60 SHOT",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "60 Multi Color Aerial Shot",
+   "rate": 1260,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 210,
+   "category": "MEGA SKYY SHOTS",
+   "product": "100 SHOT",
+   "brand": "ANIL",
+   "pack": "1",
+   "function": "100 Multi Color Aerial Shot",
+   "rate": null,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 211,
+   "category": "MEGA SKYY SHOTS",
+   "product": "100 SHOT",
+   "brand": "VADIVEL",
+   "pack": "1",
+   "function": "100 Multi Color Aerial Shot",
+   "rate": 1700,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 212,
+   "category": "MEGA SKYY SHOTS",
+   "product": "100 SHOT",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "100 Multi Color Aerial Shot",
+   "rate": 1850,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 213,
+   "category": "MEGA SKYY SHOTS",
+   "product": "120 SHOT UV",
+   "brand": "BWF",
+   "pack": "1",
+   "function": "120 Multi Color Aerial Shot",
+   "rate": 1850,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 214,
+   "category": "MEGA SKYY SHOTS",
+   "product": "120 SHOT",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "120 Multi Color Aerial Shot",
+   "rate": 2020,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 215,
+   "category": "MEGA SKYY SHOTS",
+   "product": "120 SHOT",
+   "brand": "STD",
+   "pack": "1",
+   "function": "120 Multi Color Aerial Shot",
+   "rate": 2150,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 216,
+   "category": "MEGA SKYY SHOTS",
+   "product": "120 SHOT",
+   "brand": "VADIVEL",
+   "pack": "1",
+   "function": "120 Multi Color Aerial Shot",
+   "rate": 2100,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 217,
+   "category": "MEGA SKYY SHOTS",
+   "product": "120 SHOT",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "120 Multi Color Aerial Shot",
+   "rate": 2300,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 218,
+   "category": "MEGA SKYY SHOTS",
+   "product": "240 SHOT",
+   "brand": "STD",
+   "pack": "1",
+   "function": "240 Multi Color Aerial Shot",
+   "rate": 4800,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 219,
+   "category": "MEGA SKYY SHOTS",
+   "product": "240 SHOT",
+   "brand": "NSV",
+   "pack": "1",
+   "function": "240 Multi Color Aerial Shot",
+   "rate": 4150,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 220,
+   "category": "MEGA SKYY SHOTS",
+   "product": "240 SHOT",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "240 Multi Color Aerial Shot",
+   "rate": 4600,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 221,
+   "category": "MEGA SKYY SHOTS",
+   "product": "500 SHOT",
+   "brand": "NSV",
+   "pack": "1",
+   "function": "500 Multi Color Aerial Shot",
+   "rate": 8200,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 222,
+   "category": "MEGA SKYY SHOTS",
+   "product": "500 SHOT",
+   "brand": "LEO",
+   "pack": "1",
+   "function": "500 Multi Color Aerial Shot",
+   "rate": 9100,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 223,
+   "category": "MEGA SKYY SHOTS",
+   "product": "10*10",
+   "brand": "BIGIN",
+   "pack": "1",
+   "function": "100 Multi Color Aerial Shot",
+   "rate": 2800,
+   "section": "SKY SHOTS MEGA"
+  },
+  {
+   "sr": 224,
+   "category": "Garlands",
+   "product": "1000 WALA",
+   "brand": "KMR",
+   "pack": "1",
+   "function": "",
+   "rate": 180,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 225,
+   "category": "Garlands",
+   "product": "1000 WALA",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "",
+   "rate": 200,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 226,
+   "category": "Garlands",
+   "product": "1000 WALA",
+   "brand": "ASHWINI",
+   "pack": "1",
+   "function": "",
+   "rate": 250,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 227,
+   "category": "Garlands",
+   "product": "1000 WALA",
+   "brand": "CORO",
+   "pack": "1",
+   "function": "",
+   "rate": 400,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 228,
+   "category": "Garlands",
+   "product": "2000 WALA",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "",
+   "rate": 400,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 229,
+   "category": "Garlands",
+   "product": "2000 WALA",
+   "brand": "ASHWINI",
+   "pack": "1",
+   "function": "",
+   "rate": 500,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 230,
+   "category": "Garlands",
+   "product": "5000 WALA",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "",
+   "rate": 1050,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 231,
+   "category": "Garlands",
+   "product": "10000 WALA",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "",
+   "rate": 2100,
+   "section": "GARLANDS [LADI]"
+  },
+  {
+   "sr": 232,
+   "category": "Garlands",
+   "product": "10000 WALA",
+   "brand": "FATHER",
+   "pack": "1",
+   "function": "",
+   "rate": 2100,
+   "section": "GARLANDS [LADI]"
+  }
+ ]
+}

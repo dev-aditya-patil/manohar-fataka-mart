@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Update Price List · Manohar Enterprises</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .tool { max-width: 720px; margin: 0 auto; padding: 16px; }
+    .tool h2 { font-size: 18px; margin: 8px 0 6px; }
+    .tool ol { padding-left: 20px; margin: 0 0 16px; }
+    .tool li { margin-bottom: 6px; }
+    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; margin-bottom: 12px; }
+    .file { display: block; width: 100%; padding: 14px; border: 2px dashed var(--line); border-radius: var(--radius); background: var(--surface); }
+    .btn { display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; border-radius: 10px; border: 0; background: var(--brand); color: #fff; font-weight: 700; cursor: pointer; text-decoration: none; }
+    .btn[disabled] { opacity: .4; cursor: default; }
+    .report { font-size: 14px; }
+    .report ul { margin: 6px 0; padding-left: 18px; }
+    .ok { color: #1f7a3a; font-weight: 700; }
+    .err { color: #b3261e; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; }
+    th, td { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--line); }
+    td.num { text-align: right; white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Manohar Enterprises</h1>
+      <p>Update price list · converts Excel to products.json</p>
+    </div>
+  </header>
+
+  <div class="tool">
+    <div class="panel">
+      <h2>How to update prices</h2>
+      <ol>
+        <li>Edit prices in <b>Product_list_2k26.xlsx</b> (keep the same column headings: Sr No., Category, Product Name, Brand, Box Pack/ Qty, Function, Rate).</li>
+        <li>Choose the Excel file below. It is read only inside this browser; nothing is uploaded anywhere.</li>
+        <li>Check the summary, then tap <b>Download products.json</b>.</li>
+        <li>On GitHub, upload the downloaded <b>products.json</b> to the repository, replacing the old one. The website shows the new prices within a few minutes.</li>
+      </ol>
+      <input class="file" id="file" type="file" accept=".xlsx,.xls,.xlsm">
+    </div>
+
+    <div class="panel report" id="report" hidden></div>
+
+    <p><button class="btn" id="download" type="button" disabled>Download products.json</button>
+       &nbsp;<a href="./">← Back to price finder</a></p>
+  </div>
+
+  <!-- SheetJS (Excel reader), only loaded on this page; the price finder itself has no dependencies. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script>
+  (function () {
+    'use strict';
+    var fileInput = document.getElementById('file');
+    var report = document.getElementById('report');
+    var download = document.getElementById('download');
+    var output = null;
+
+    function str(v) { return v === null || v === undefined ? '' : String(v).replace(/\s+/g, ' ').trim(); }
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+    // Finds the header row and the column for each field by its heading text.
+    function findColumns(rows) {
+      var tests = {
+        sr: /^sr/i, category: /categ/i, product: /product/i, brand: /brand/i,
+        pack: /pack|qty/i, 'function': /function/i, rate: /rate|price/i
+      };
+      for (var r = 0; r < Math.min(rows.length, 40); r++) {
+        var row = rows[r] || [], cols = {};
+        row.forEach(function (cell, c) {
+          var text = str(cell);
+          Object.keys(tests).forEach(function (k) { if (cols[k] === undefined && tests[k].test(text)) cols[k] = c; });
+        });
+        if (Object.keys(tests).every(function (k) { return cols[k] !== undefined; })) return { row: r, cols: cols };
+      }
+      return null;
+    }
+
+    function convert(workbook, fileName) {
+      var sheetName = null, rows = null, found = null;
+      for (var i = 0; i < workbook.SheetNames.length && !found; i++) {
+        rows = XLSX.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[i]], { header: 1, raw: true, defval: null, blankrows: true });
+        found = findColumns(rows);
+        if (found) sheetName = workbook.SheetNames[i];
+      }
+      if (!found) throw new Error('Could not find the heading row (Sr No., Category, Product Name, Brand, Box Pack/ Qty, Function, Rate) in any sheet.');
+
+      var c = found.cols, products = [], excluded = [], problems = [], section = '', note = '';
+      for (var r = found.row + 1; r < rows.length; r++) {
+        var row = rows[r] || [];
+        var get = function (k) { return str(row[c[k]]); };
+        var cells = ['sr', 'category', 'product', 'brand', 'pack', 'function', 'rate'].map(get);
+        if (!cells.some(Boolean)) continue;
+        var srRaw = row[c.sr];
+        var isNumbered = typeof srRaw === 'number' || /^\d+$/.test(str(srRaw));
+        if (isNumbered) {
+          if (!cells.slice(1).some(Boolean)) { excluded.push('Row ' + (r + 1) + ' (Sr ' + cells[0] + '): numbered row with no data'); continue; }
+          var rawRate = row[c.rate], rate = null, unit = '';
+          if (typeof rawRate === 'number') rate = rawRate;
+          else if (get('rate')) {
+            var m = /^₹?\s*([\d,]+(?:\.\d+)?)\s*(.*)$/.exec(get('rate'));
+            if (m) { rate = parseFloat(m[1].replace(/,/g, '')); unit = m[2]; }
+            else problems.push('Row ' + (r + 1) + ' (Sr ' + cells[0] + '): rate “' + get('rate') + '” is not a number — left blank');
+          }
+          var p = {
+            sr: Number(cells[0]), category: get('category'), product: get('product'), brand: get('brand'),
+            pack: get('pack'), 'function': get('function'), rate: rate
+          };
+          if (unit) p.rateUnit = unit;
+          p.section = section;
+          products.push(p);
+        } else if (cells[0] && !cells.slice(1).some(Boolean)) {
+          if (/^\*?\s*note/i.test(cells[0])) note = cells[0]; else section = cells[0];
+        } else {
+          excluded.push('Row ' + (r + 1) + ': not a product row (“' + cells.filter(Boolean).join(' | ') + '”)');
+        }
+      }
+      return {
+        doc: { business: 'Manohar Enterprises', source: fileName + ' — sheet \'' + sheetName + '\'', note: note, count: products.length, products: products },
+        excluded: excluded, problems: problems, sheet: sheetName
+      };
+    }
+
+    function showReport(res) {
+      var ps = res.doc.products;
+      var noRate = ps.filter(function (p) { return p.rate === null; });
+      var keys = {}, dups = [];
+      ps.forEach(function (p) {
+        var k = [p.category, p.product, p.brand, p.pack].join('|');
+        if (keys[k]) dups.push('Sr ' + keys[k] + ' and Sr ' + p.sr + ': ' + p.product + ' ' + p.brand); else keys[k] = p.sr;
+      });
+      var cats = {};
+      ps.forEach(function (p) { cats[p.category] = (cats[p.category] || 0) + 1; });
+      var html = '<p class="ok">✓ ' + ps.length + ' products read from sheet “' + esc(res.sheet) + '”.</p>' +
+        '<p>' + Object.keys(cats).length + ' categories · ' + noRate.length + ' without a rate (shown as “Rate not listed”).</p>';
+      if (res.problems.length) html += '<p class="err">Please check:</p><ul>' + res.problems.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+      if (res.excluded.length) html += '<p>Skipped rows:</p><ul>' + res.excluded.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+      if (dups.length) html += '<p>Possible duplicates (kept as-is):</p><ul>' + dups.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+      html += '<table><thead><tr><th>Sr</th><th>Product</th><th>Brand</th><th>Rate</th></tr></thead><tbody>' +
+        ps.slice(0, 12).map(function (p) {
+          return '<tr><td>' + p.sr + '</td><td>' + esc(p.product) + '</td><td>' + esc(p.brand) + '</td><td class="num">' +
+            (p.rate === null ? '—' : '₹' + p.rate + (p.rateUnit ? ' ' + esc(p.rateUnit) : '')) + '</td></tr>';
+        }).join('') + '</tbody></table><p>First 12 of ' + ps.length + ' shown.</p>';
+      report.innerHTML = html;
+      report.hidden = false;
+    }
+
+    fileInput.addEventListener('change', function () {
+      var file = fileInput.files[0];
+      output = null; download.disabled = true;
+      if (!file) return;
+      if (typeof XLSX === 'undefined') {
+        report.hidden = false;
+        report.innerHTML = '<p class="err">The Excel reader could not be loaded. Connect to the internet and reload this page.</p>';
+        return;
+      }
+      var reader = new FileReader();
+      reader.onload = function () {
+        try {
+          var res = convert(XLSX.read(new Uint8Array(reader.result), { type: 'array' }), file.name);
+          if (!res.doc.products.length) throw new Error('No product rows were found.');
+          output = JSON.stringify(res.doc, null, 1) + '\n';
+          showReport(res);
+          download.disabled = false;
+        } catch (e) {
+          report.hidden = false;
+          report.innerHTML = '<p class="err">' + esc(e.message) + '</p>';
+        }
+      };
+      reader.readAsArrayBuffer(file);
+    });
+
+    download.addEventListener('click', function () {
+      if (!output) return;
+      var url = URL.createObjectURL(new Blob([output], { type: 'application/json' }));
+      var a = document.createElement('a');
+      a.href = url; a.download = 'products.json';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    });
+
+    window.__convert = convert;   // used by automated checks
+  })();
+  </script>
+</body>
+</html>

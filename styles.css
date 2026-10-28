@@ -1,0 +1,251 @@
+/* Manohar Enterprises — Product & Price Finder
+   Mobile-first: base styles target 320–480px, wider screens are layered on at the end. */
+
+:root {
+  --brand: #7a1f2b;
+  --brand-ink: #ffffff;
+  --brand-sub: #f6d38b;
+  --accent: #f2b73a;
+  --bg: #f4f2ee;
+  --surface: #ffffff;
+  --text: #1c1917;
+  --muted: #6b645e;
+  --line: #e4dfd8;
+  --chip: #ffffff;
+  --chip-active: #7a1f2b;
+  --chip-active-ink: #ffffff;
+  --price: #7a1f2b;
+  --mark: #fde7b0;
+  --focus: #c47f00;
+  --radius: 12px;
+  --shadow: 0 1px 2px rgba(28, 25, 23, .06);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --brand: #5c1520;
+    --brand-sub: #f2c76a;
+    --bg: #121011;
+    --surface: #1d1a1b;
+    --text: #f3efe9;
+    --muted: #a59d95;
+    --line: #322d2e;
+    --chip: #1d1a1b;
+    --chip-active: #f2b73a;
+    --chip-active-ink: #1c1917;
+    --price: #f2b73a;
+    --mark: #5a4312;
+    --shadow: none;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Devanagari", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, input, select { font: inherit; color: inherit; }
+svg { width: 22px; height: 22px; fill: currentColor; flex: none; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* ---------- Header ---------- */
+.topbar {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 16px;
+  padding-top: max(10px, env(safe-area-inset-top));
+  background: var(--brand); color: var(--brand-ink);
+}
+.brand { flex: 1; min-width: 0; }
+.brand h1 { margin: 0; font-size: 19px; line-height: 1.2; font-weight: 750; letter-spacing: .2px; }
+.brand p { margin: 1px 0 0; font-size: 12.5px; color: var(--brand-sub); }
+
+.icon-btn {
+  display: grid; place-items: center;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .28);
+  background: rgba(255, 255, 255, .1); color: inherit; cursor: pointer;
+}
+.icon-btn[aria-expanded="true"] { background: var(--accent); color: #1c1917; border-color: var(--accent); }
+
+.contact-panel {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;
+  padding: 2px 16px 12px; background: var(--brand);
+}
+
+.contact-btn {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0 6px;
+  min-height: 44px; padding: 8px 10px; border-radius: 10px;
+  background: var(--surface); color: var(--text);
+  font-weight: 650; text-decoration: none; text-align: center;
+  border: 1px solid var(--line);
+  min-width: 0; overflow-wrap: anywhere;
+}
+.contact-btn span { white-space: nowrap; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; }
+.contact-btn.wide { grid-column: 1 / -1; font-size: 14px; }
+
+/* ---------- Sticky controls: search, chips, toolbar ---------- */
+.controls {
+  position: sticky; top: 0; z-index: 10;
+  padding: 10px 16px 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+
+.search { position: relative; }
+.search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.search input {
+  width: 100%; height: 54px;
+  padding: 0 52px 0 46px;
+  border: 2px solid var(--line); border-radius: var(--radius);
+  background: var(--surface);
+  font-size: 18px; font-weight: 500;
+  -webkit-appearance: none; appearance: none;
+}
+.search input::placeholder { color: var(--muted); font-weight: 400; }
+.search input:focus { outline: none; border-color: var(--brand); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .search input:focus { border-color: var(--accent); } }
+.search input::-webkit-search-cancel-button { display: none; }
+
+.clear-btn {
+  position: absolute; right: 5px; top: 50%; transform: translateY(-50%);
+  display: grid; place-items: center;
+  width: 44px; height: 44px; border: 0; border-radius: 50%;
+  background: transparent; color: var(--muted); cursor: pointer;
+}
+.clear-btn:active { background: var(--line); }
+
+.chips {
+  display: flex; gap: 8px;
+  margin: 10px -16px 0; padding: 0 16px 2px;
+  overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; scroll-snap-align: start;
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 38px; padding: 0 14px; border-radius: 19px;
+  border: 1px solid var(--line); background: var(--chip);
+  font-size: 13px; font-weight: 650; letter-spacing: .3px; text-transform: uppercase;
+  white-space: nowrap; cursor: pointer;
+}
+.chip b { font-weight: 600; font-size: 12px; color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--chip-active); border-color: var(--chip-active); color: var(--chip-active-ink); }
+.chip[aria-pressed="true"] b { color: inherit; opacity: .8; }
+.chip.zero { opacity: .45; }
+
+.toolbar {
+  display: flex; align-items: center; gap: 8px;
+  min-height: 46px;
+}
+.count { flex: 1; min-width: 0; margin: 0; font-size: 14px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.count strong { color: var(--text); }
+.reset-btn {
+  flex: none; height: 34px; padding: 0 11px; border-radius: 17px;
+  border: 1px solid var(--line); background: transparent;
+  font-size: 13px; font-weight: 650; color: var(--brand); cursor: pointer;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .reset-btn { color: var(--accent); } }
+/* Compact sort button: the native <select> sits invisibly on top, so tapping opens the phone's own picker. */
+.sort {
+  position: relative; flex: none;
+  display: inline-flex; align-items: center; gap: 4px;
+  height: 34px; padding: 0 10px 0 8px;
+  border: 1px solid var(--line); border-radius: 8px; background: var(--surface);
+  font-size: 13.5px; font-weight: 650; white-space: nowrap;
+}
+.sort svg { width: 18px; height: 18px; color: var(--muted); }
+.sort.active { border-color: var(--brand); }
+.sort select {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  opacity: 0; cursor: pointer; font-size: 16px;
+}
+.sort:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* ---------- Results ---------- */
+main { padding: 10px 16px 24px; min-height: 50vh; }
+
+.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-content: start;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.card h3 { margin: 0; font-size: 16.5px; line-height: 1.25; font-weight: 700; overflow-wrap: anywhere; }
+.card .sr { font-size: 11.5px; font-weight: 600; color: var(--muted); margin-left: 4px; white-space: nowrap; }
+
+.price { grid-row: 1 / span 2; grid-column: 2; text-align: right; align-self: start; }
+.price strong { display: block; font-size: 22px; line-height: 1.1; font-weight: 800; color: var(--price); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.price small { display: block; font-size: 11.5px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .4px; }
+.price.na strong { font-size: 13px; font-weight: 700; color: var(--muted); }
+
+.meta { grid-column: 1; margin: 2px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 1px 8px; font-size: 13.5px; }
+.meta dt { color: var(--muted); }
+.meta dd { margin: 0; font-weight: 550; overflow-wrap: anywhere; }
+
+mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+.empty {
+  padding: 28px 16px; text-align: center;
+  background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius);
+}
+.empty h3 { margin: 0 0 6px; font-size: 17px; }
+.empty p { margin: 0 0 14px; color: var(--muted); }
+.empty .actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.empty button {
+  min-height: 44px; padding: 0 16px; border-radius: 10px;
+  border: 1px solid var(--line); background: var(--bg); font-weight: 650; cursor: pointer;
+}
+.empty button.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+
+#sentinel { height: 1px; }
+
+/* ---------- Footer ---------- */
+.footer { padding: 20px 16px calc(28px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line); }
+.footer h2 { margin: 0 0 10px; font-size: 15px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+.contact-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.footer address { margin: 12px 0 0; font-style: normal; font-weight: 600; }
+.fine { margin: 10px 0 0; font-size: 12.5px; color: var(--muted); }
+
+.to-top {
+  position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 20;
+  display: grid; place-items: center;
+  width: 48px; height: 48px; border-radius: 50%;
+  border: 0; background: var(--brand); color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .25); cursor: pointer;
+}
+
+/* ---------- Wider screens ---------- */
+@media (min-width: 640px) {
+  .topbar, .contact-panel, .controls, main, .footer { padding-left: max(24px, calc((100vw - 1080px) / 2)); padding-right: max(24px, calc((100vw - 1080px) / 2)); }
+  .chips { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; flex-wrap: wrap; overflow: visible; padding-bottom: 4px; }
+  .contact-panel { grid-template-columns: repeat(3, auto); justify-content: end; }
+  .contact-panel .contact-btn.wide { grid-column: auto; }
+  .results { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+  .contact-grid { grid-template-columns: repeat(3, auto); justify-content: start; }
+  .contact-grid .contact-btn.wide { grid-column: auto; }
+}
+
+@media (min-width: 640px) and (hover: hover) {
+  .chip:hover { border-color: var(--muted); }
+  .card:hover { border-color: var(--muted); }
+}
