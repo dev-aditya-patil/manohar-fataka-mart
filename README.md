@@ -44,14 +44,14 @@ All paths in the project are relative, so it works from that sub-folder address.
 
 ## How the Excel data was converted
 
-Source: `Product_list_2k26.xlsx`, sheet **"2026 Price"**, heading row 7.
+Source: `Product_list_2k26.xlsx` (version of 30 Oct 2026), sheet **"2026 Price"**, heading row 7.
 
-* **231 products** were converted, Sr. No. 1–232.
+* **237 products**: Sr. No. 1–232 plus **6 new products that have no Sr. No.** in Excel (COCK 10 CM PLAIN / RED / GREEN sparkles, COCK TRI COLOR FOUNTAIN, IN 4" DHAMAKA, COCK LUNIK ROCKET). These appear in their Excel position and are shown without a "#" number.
 * **Sr. No. 166 is excluded** because that row has only the number and no other data.
 * Section heading rows (e.g. "SKY SHOTS MEGA") are not products. They are stored with each product as `section`, so searching "sky shots" works.
 * Product names, brands, packs and functions are kept exactly as typed in Excel, including spellings such as "SARPENT" and "OCTPUSY". Only extra spaces were tidied (e.g. `7 CM   PLAIN` → `7 CM PLAIN`).
 * Rates are copied exactly. Cells typed as text, such as `₹ 60`, are stored as the number 60. **Sr. 132 (POP POP, MICKY M)** has the rate `₹ 400 Box`, which is stored as 400 and shown as "₹400 per box".
-* **11 products have no rate** in the Excel file (Sr. 3, 4, 29, 39, 44, 63, 65, 128, 152, 190, 210). The site shows these as "Rate not listed" and never guesses a price.
+* **11 products have no rate** in the Excel file (Sr. 3, 29, 39, 44, 63, 65, 128, 152, 190, 210 and the new COCK 10 CM GREEN). The site shows these as "Rate not listed" and never guesses a price.
 * Possible duplicates were **kept, not deleted**:
   * Sr. 231 and 232 are identical (10000 WALA, FATHER, ₹2,100).
   * Sr. 60 (₹80) and 64 (₹140) are both "GC SPL, VADIVEL, 1 Pack (10pc)" but have different prices.

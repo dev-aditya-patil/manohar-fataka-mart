@@ -1,8 +1,8 @@
 {
  "business": "Manohar Enterprises",
- "source": "Product_list_2k26.xlsx — sheet '2026 Price'",
+ "source": "Product_list_2k26.xlsx (30 Oct 2026) — sheet '2026 Price'",
  "note": "*NOTE - there can be misprint in the above Price List.",
- "count": 231,
+ "count": 237,
  "products": [
   {
    "sr": 1,
@@ -41,7 +41,7 @@
    "brand": "SONY",
    "pack": "1 Pack",
    "function": "Gun Ring",
-   "rate": null,
+   "rate": 10,
    "section": ""
   },
   {
@@ -90,7 +90,7 @@
    "product": "10 CM GREEN",
    "brand": "CLASSIC",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "Green Sparkle",
    "rate": 20,
    "section": "SPARKLES"
   },
@@ -100,7 +100,7 @@
    "product": "10 CM RED",
    "brand": "CLASSIC",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "RED Sparkle",
    "rate": 20,
    "section": "SPARKLES"
   },
@@ -120,7 +120,7 @@
    "product": "15 CM GREEN",
    "brand": "CLASSIC",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "Green Sparkle",
    "rate": 40,
    "section": "SPARKLES"
   },
@@ -130,7 +130,7 @@
    "product": "15 CM RED",
    "brand": "CLASSIC",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "RED Sparkle",
    "rate": 40,
    "section": "SPARKLES"
   },
@@ -150,7 +150,7 @@
    "product": "30 CM GREEN",
    "brand": "CLASSIC",
    "pack": "1 Pack (5 pc)",
-   "function": "Electric Sparkle",
+   "function": "Green Sparkle",
    "rate": 40,
    "section": "SPARKLES"
   },
@@ -160,7 +160,7 @@
    "product": "30 CM RED",
    "brand": "CLASSIC",
    "pack": "1 Pack (5 pc)",
-   "function": "Electric Sparkle",
+   "function": "RED Sparkle",
    "rate": 40,
    "section": "SPARKLES"
   },
@@ -200,7 +200,7 @@
    "product": "10 CM GREEN",
    "brand": "CORO",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "Green Sparkle",
    "rate": 20,
    "section": "SPARKLES"
   },
@@ -210,7 +210,7 @@
    "product": "10 CM RED",
    "brand": "CORO",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "RED Sparkle",
    "rate": 20,
    "section": "SPARKLES"
   },
@@ -230,7 +230,7 @@
    "product": "15 CM GREEN",
    "brand": "CORO",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "Green Sparkle",
    "rate": 50,
    "section": "SPARKLES"
   },
@@ -240,7 +240,7 @@
    "product": "15 CM RED",
    "brand": "CORO",
    "pack": "1 Pack (10pc)",
-   "function": "Electric Sparkle",
+   "function": "RED Sparkle",
    "rate": 50,
    "section": "SPARKLES"
   },
@@ -260,7 +260,7 @@
    "product": "30 CM GREEN",
    "brand": "CORO",
    "pack": "1 Pack (5 pc)",
-   "function": "Electric Sparkle",
+   "function": "Green Sparkle",
    "rate": 50,
    "section": "SPARKLES"
   },
@@ -270,7 +270,7 @@
    "product": "30 CM RED",
    "brand": "CORO",
    "pack": "1 Pack (5 pc)",
-   "function": "Electric Sparkle",
+   "function": "RED Sparkle",
    "rate": 50,
    "section": "SPARKLES"
   },
@@ -291,6 +291,36 @@
    "brand": "CORO",
    "pack": "1 Pack (5 pc)",
    "function": "Electric Sparkle",
+   "rate": null,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": null,
+   "category": "SPARKLES",
+   "product": "10 CM PLAIN",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Electric Sparkle",
+   "rate": 30,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": null,
+   "category": "SPARKLES",
+   "product": "10 CM RED",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "RED Sparkle",
+   "rate": 30,
+   "section": "SPARKLES"
+  },
+  {
+   "sr": null,
+   "category": "SPARKLES",
+   "product": "10 CM GREEN",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Green Sparkle",
    "rate": null,
    "section": "SPARKLES"
   },
@@ -502,6 +532,16 @@
    "pack": "1 Pack (10pc)",
    "function": "Color fading Fountain",
    "rate": 550,
+   "section": "FLOWER POTS"
+  },
+  {
+   "sr": null,
+   "category": "Flower Pots",
+   "product": "TRI COLOR FOUNTAIN",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Color fading Fountain",
+   "rate": 370,
    "section": "FLOWER POTS"
   },
   {
@@ -932,6 +972,16 @@
    "pack": "1 Pack (5 pc)",
    "function": "Crackers",
    "rate": 20,
+   "section": "MOTTA CRACKERS / TUKDA"
+  },
+  {
+   "sr": null,
+   "category": "Deluxe Crackers",
+   "product": "4\" DHAMAKA",
+   "brand": "IN",
+   "pack": "1 Pack (5 pc)",
+   "function": "Crackers",
+   "rate": 25,
    "section": "MOTTA CRACKERS / TUKDA"
   },
   {
@@ -1606,6 +1656,16 @@
    "section": "ROCKETS"
   },
   {
+   "sr": null,
+   "category": "ROCKETS",
+   "product": "LUNIK ROCKET",
+   "brand": "COCK",
+   "pack": "1 Pack (10pc)",
+   "function": "Rockets",
+   "rate": 250,
+   "section": "ROCKETS"
+  },
+  {
    "sr": 161,
    "category": "ROCKETS",
    "product": "SKY WHISTLE ROCKET",
@@ -1642,7 +1702,7 @@
    "brand": "COCK",
    "pack": "1 Pack (10pc)",
    "function": "Rockets",
-   "rate": 250,
+   "rate": 280,
    "section": "ROCKETS"
   },
   {
@@ -1828,7 +1888,7 @@
   {
    "sr": 184,
    "category": "FANCY",
-   "product": "4\" BIG DOUS (2PIC)",
+   "product": "4\" BIG DUOS (2PIC)",
    "brand": "SONY",
    "pack": "1 (2pc)",
    "function": "Sky Shots fancy",
@@ -2219,7 +2279,7 @@
    "sr": 223,
    "category": "MEGA SKYY SHOTS",
    "product": "10*10",
-   "brand": "BIGIN",
+   "brand": "IN",
    "pack": "1",
    "function": "100 Multi Color Aerial Shot",
    "rate": 2800,
